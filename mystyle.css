@@ -1,14 +1,84 @@
-body { background-color: lightyellow;
+body {background-color: lightyellow;
  	
   font-family: Arial, Helvetica, sans-serif;
 }
+
+
+#layout { 
+                    display: grid;
+                    padding: 20px;
+                    /* rows = height/vertical, columns = width/horizontal */
+           
+}
+/* SET UP ROWS/COLUMNS USING GRID LINE NUMBERS */
+			#Image { 
+				grid-row-start: 1;  
+				grid-row-end: 3;  
+				grid-column-start: 2;  
+				grid-column-end: 3;
+				border-style: double;
+			}
+
+			h1 {width: 400px}
+
+			#Image img {
+				margin-top:  25px;
+				margin-bottom:  25px;
+			}	
+
+				
+
+			#Contact { 
+				grid-row-start: 1;  
+				grid-row-end: 2;  
+				grid-column-start: 1;  
+				grid-column-end: 2;
+				border-style: double;
+			}
+
+			#Education { 
+				grid-row-start: 2;  
+				grid-row-end: 3;  
+				grid-column-start: 1;  
+				grid-column-end: 2;
+				border-style: double;
+			}
+
+			#Experience {  
+				grid-row-start: 3;  
+				grid-row-end: 4;  
+				grid-column-start: 1;  
+				grid-column-end: 2;
+				border-style: double;
+			}
+
+			#Skills { 
+				grid-row-start: 3;  
+				grid-row-end: 4;  
+				grid-column-start: 2;  
+				grid-column-end: 3;
+				border-style: double;
+			}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 h1 {
   font-family: Arial, Helvetica, sans-serif;
   border-style: solid;
   border-width: 5px;
   border-color: darkred;
-  width:  18%;
+  width:  26%;
 }
 
 h2 {
